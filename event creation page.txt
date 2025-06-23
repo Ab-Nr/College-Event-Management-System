@@ -1,0 +1,71 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(EventCreationPage());
+}
+
+class EventCreationPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Create Event'),
+        ),
+        body: SingleChildScrollView(
+          padding: EdgeInsets.all(20.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              TextField(
+                decoration: InputDecoration(labelText: 'Event Title'),
+              ),
+              SizedBox(height: 20.0),
+              TextField(
+                decoration: InputDecoration(labelText: 'Event Description'),
+                maxLines: 3,
+              ),
+              SizedBox(height: 20.0),
+              DropdownButtonFormField(
+                decoration: InputDecoration(labelText: 'Event Category'),
+                items: ['Technical', 'Cultural', 'Workshop', 'Seminar']
+                    .map((category) {
+                  return DropdownMenuItem(
+                    value: category,
+                    child: Text(category),
+                  );
+                }).toList(),
+                onChanged: (selectedCategory) {},
+              ),
+              SizedBox(height: 20.0),
+              TextField(
+                decoration: InputDecoration(labelText: 'Event Date'),
+                onTap: () {
+                  // Show date picker
+                },
+              ),
+              SizedBox(height: 20.0),
+              TextField(
+                decoration: InputDecoration(labelText: 'Event Time'),
+                onTap: () {
+                  // Show time picker
+                },
+              ),
+              SizedBox(height: 20.0),
+              TextField(
+                decoration: InputDecoration(labelText: 'Event Location'),
+              ),
+              SizedBox(height: 20.0),
+              ElevatedButton(
+                onPressed: () {
+                  // Handle event creation
+                },
+                child: Text('Create Event'),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
