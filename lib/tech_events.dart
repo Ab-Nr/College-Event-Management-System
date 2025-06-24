@@ -72,7 +72,7 @@ class _TechnicalEventsScreenState extends State<TechnicalEventsScreen> {
                   eventDate:
                       '${event.date?.year}-${event.date?.month}-${event.date?.day}', // Format the date
                   collegeWebsite:
-                      'https://scmsgroup.org/sset/', // Replace with actual website if available
+                      '', // Replace with actual website if available
                 );
               },
             ),
