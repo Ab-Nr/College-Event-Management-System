@@ -35,51 +35,51 @@ class CulturalEventsScreen extends StatelessWidget {
               children: [
                 EventCard(
                   eventTitle: 'Cultural Fest 1',
-                  eventPoster: 'assets/scms.jpeg', // Path to your image asset
+                  eventPoster: 'assets/', // Path to your image asset
                   eventDescription:
                       'A cultural fest is an event that celebrates the diverse cultural heritage of a community through various activities such as dance, music, art, and food.',
                   eventType: 'Cultural',
-                  eventLocation: 'https://maps.app.goo.gl/YZDfRjkXyeXs1gof6',
+                  eventLocation: '',
                   eventTiming: '6:00 PM',
                   eventDate: '2024-05-20', // Added event date
-                  collegeWebsite: 'https://scmsgroup.org/sset/',
+                  collegeWebsite: '',
                 ),
                 SizedBox(height: 20),
                 EventCard(
                   eventTitle: 'Cultural Fest 2',
-                  eventPoster: 'assets/fisat2.jpg',
+                  eventPoster: 'assets/',
                   eventDescription:
                       'A cultural fest is an event that celebrates the diverse cultural heritage of a community through various activities such as dance, music, art, and food.',
                   eventType: 'Cultural',
-                  eventLocation: 'https://maps.app.goo.gl/S77R1fXd6y84xFWo7',
+                  eventLocation: '',
                   eventTiming: '7:00 PM',
                   eventDate: '2024-05-21', // Added event date
-                  collegeWebsite: 'https://fisat.ac.in/',
+                  collegeWebsite: '',
                 ),
                 SizedBox(height: 20),
                 EventCard(
                   eventTitle: 'Cultural Fest 3',
-                  eventPoster: 'assets/rajagiri.jpg',
+                  eventPoster: 'assets/',
                   eventDescription:
                       'A cultural fest is an event that celebrates the diverse cultural heritage of a community through various activities such as dance, music, art, and food.',
                   eventType: 'Cultural',
-                  eventLocation: 'https://maps.app.goo.gl/hAYae1np3UnN9ARh6',
+                  eventLocation: '',
                   eventTiming: '6:00 PM',
                   eventDate: '2024-05-22', // Added event date
                   collegeWebsite:
-                      'https://www.rajagiritech.ac.in/Home/Index.asp',
+                      '',
                 ),
                 SizedBox(height: 20),
                 EventCard(
                   eventTitle: 'Cultural Fest 4',
-                  eventPoster: 'assets/nit.jpeg',
+                  eventPoster: 'assets/',
                   eventDescription:
                       'A cultural fest is an event that celebrates the diverse cultural heritage of a community through various activities such as dance, music, art, and food.',
                   eventType: 'Cultural',
-                  eventLocation: 'https://maps.app.goo.gl/YVsNe7qau7zn2DAw9',
+                  eventLocation: '',
                   eventTiming: '7:00 PM',
                   eventDate: '2024-05-23', // Added event date
-                  collegeWebsite: 'https://nitc.ac.in/',
+                  collegeWebsite: '',
                 ),
                 SizedBox(height: 20),
               ],
