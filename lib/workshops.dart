@@ -35,50 +35,50 @@ class WorkshopScreen extends StatelessWidget {
               children: [
                 EventCard(
                   eventTitle: 'Workshop 1',
-                  eventPoster: 'assets/scms.jpeg', // Path to your image asset
+                  eventPoster: 'assets/', // Path to your image asset
                   eventDescription:
                       'A workshop is an educational session that provides hands-on learning and practical skills in a specific area such as technology, arts, or business.',
                   eventType: 'Workshop',
-                  eventLocation: 'https://maps.app.goo.gl/YZDfRjkXyeXs1gof6',
+                  eventLocation: '',
                   eventTiming: '10:00 AM',
                   eventDate: '2024-05-20', // Added event date
-                  collegeWebsite: 'https://scmsgroup.org/sset/',
+                  collegeWebsite: '',
                 ),
                 EventCard(
                   eventTitle: 'Workshop 2',
-                  eventPoster: 'assets/fisat2.jpg',
+                  eventPoster: '',
                   eventDescription:
                       'A workshop is an educational session that provides hands-on learning and practical skills in a specific area such as technology, arts, or business.',
                   eventType: 'Workshop',
-                  eventLocation: 'https://maps.app.goo.gl/S77R1fXd6y84xFWo7',
-                  eventTiming: '7:00 PM',
+                  eventLocation: '',
+                  eventTiming: '7:00 PM'
                   eventDate: '2024-05-21', // Added event date
-                  collegeWebsite: 'https://fisat.ac.in/',
+                  collegeWebsite: '',
                 ),
                 SizedBox(height: 20),
                 EventCard(
                   eventTitle: 'Workshop 3',
-                  eventPoster: 'assets/rajagiri.jpg',
+                  eventPoster: 'assets/',
                   eventDescription:
                       'A workshop is an educational session that provides hands-on learning and practical skills in a specific area such as technology, arts, or business.',
                   eventType: 'Workshop',
-                  eventLocation: 'https://maps.app.goo.gl/hAYae1np3UnN9ARh6',
+                  eventLocation: '',
                   eventTiming: '6:00 PM',
                   eventDate: '2024-05-22', // Added event date
                   collegeWebsite:
-                      'https://www.rajagiritech.ac.in/Home/Index.asp',
+                      '',
                 ),
                 SizedBox(height: 20),
                 EventCard(
                   eventTitle: 'Workshop 4',
-                  eventPoster: 'assets/nit.jpeg',
+                  eventPoster: 'assets/',
                   eventDescription:
                       'A workshop is an educational session that provides hands-on learning and practical skills in a specific area such as technology, arts, or business.',
                   eventType: 'Workshop',
-                  eventLocation: 'https://maps.app.goo.gl/YVsNe7qau7zn2DAw9',
+                  eventLocation: '',
                   eventTiming: '7:00 PM',
                   eventDate: '2024-05-23', // Added event date
-                  collegeWebsite: 'https://nitc.ac.in/',
+                  collegeWebsite: '',
                 ),
                 SizedBox(height: 20),
                 // Add more EventCards here if needed
