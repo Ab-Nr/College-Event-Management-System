@@ -35,52 +35,52 @@ class SeminarScreen extends StatelessWidget {
               children: [
                 EventCard(
                   eventTitle: 'Seminar 1',
-                  eventPoster: 'assets/scms.jpeg', // Path to your image asset
+                  eventPoster: '', // Path to your image asset
                   eventDescription:
                       'A seminar is a conference or other meeting for discussion or training. It typically leads to a presentation or speech, with questions from the audience.',
                   eventType: 'Seminar',
-                  eventLocation: 'https://maps.app.goo.gl/YZDfRjkXyeXs1gof6',
+                  eventLocation: '',
                   eventTiming: '10:00 AM',
                   eventDate: '2024-05-20', // Added event date
-                  collegeWebsite: 'https://scmsgroup.org/sset/',
+                  collegeWebsite: '',
                 ),
                 SizedBox(height: 20),
                 EventCard(
                   eventTitle: 'Seminar 2',
-                  eventPoster: 'assets/fisat2.jpg',
+                  eventPoster: '',
                   eventDescription:
                       'A seminar is a conference or other meeting for discussion or training. It typically leads to a presentation or speech, with questions from the audience.',
                   eventType: 'Seminar',
-                  eventLocation: 'https://maps.app.goo.gl/S77R1fXd6y84xFWo7',
+                  eventLocation: '',
                   eventTiming: '7:00 PM',
                   eventDate: '2024-05-21', // Added event date
-                  collegeWebsite: 'https://fisat.ac.in/',
+                  collegeWebsite: '',
                 ),
                 SizedBox(height: 20),
                 EventCard(
                   eventTitle: 'Seminar 3',
                   eventPoster:
-                      'assets/rajagiri.jpg', // Path to your image asset
+                      '', // Path to your image asset
                   eventDescription:
                       'A seminar is a conference or other meeting for discussion or training. It typically leads to a presentation or speech, with questions from the audience.',
                   eventType: 'Seminar',
-                  eventLocation: 'https://maps.app.goo.gl/hAYae1np3UnN9ARh6',
+                  eventLocation: '',
                   eventTiming: '6:00 PM',
                   eventDate: '2024-05-22', // Added event date
                   collegeWebsite:
-                      'https://www.rajagiritech.ac.in/Home/Index.asp',
+                      '',
                 ),
                 SizedBox(height: 20),
                 EventCard(
                   eventTitle: 'Seminar 4',
-                  eventPoster: 'assets/nit.jpeg',
+                  eventPoster: '',
                   eventDescription:
                       'A seminar is a conference or other meeting for discussion or training. It typically leads to a presentation or speech, with questions from the audience.',
                   eventType: 'Seminar',
-                  eventLocation: 'https://maps.app.goo.gl/YVsNe7qau7zn2DAw9',
+                  eventLocation: '',
                   eventTiming: '7:00 PM',
                   eventDate: '2024-05-23', // Added event date
-                  collegeWebsite: 'https://nitc.ac.in/',
+                  collegeWebsite: '',
                 ),
                 SizedBox(height: 20),
                 // Add more EventCards here if needed
